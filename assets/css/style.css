@@ -74,15 +74,6 @@ footer {
     bottom: 0;
 }
 
-#AboutMe {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 25px;
-    margin-left: 35px;
-    padding-bottom: 30px;
-    padding-top: 15px;
-}
-
 .grid-container-AboutMe {
     background: #ffffff;
     width: 960px;
@@ -96,12 +87,26 @@ footer {
     color: #777777;
 }
 
+
+#AboutMe {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 35px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    border-bottom-style: solid;
+    border-color: #dddddddd;
+    border-width: 4px;
+    margin-right: 35px;
+}
+
 #MyPicture {
     width: 200px;
     border-style: solid;
     border-color: #dddddd;
     border-width: 2px;
-    margin-left: 20px;
+    margin-left: 35px;
     float: left;
     margin-right: 25px;
 }
@@ -113,5 +118,6 @@ footer {
 }
 
 p{
-    padding-right: 35px;
+    margin-right: 35px;
+    margin-left: 35px;
 }
