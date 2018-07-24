@@ -2,7 +2,7 @@
     box-sizing: border-box;
   }
 
-.grid-container {
+.grid-container-header {
     display: grid;
     grid-template-columns: 660px 100px 100px 100px;
     width: 960px;
@@ -28,13 +28,18 @@
     color: #777777;
 }
 
+body {
+   /* background-image: url("/assets/images/lashes-dark.png") */
+    background: gray;
+    }
+
 #HopeGratrix {
     background: #4aaaa5;
     color: #ffffff;
     font-size: 25px;
     width: 250px;
     text-align: center;
-    padding: 23px;
+    padding: 22.5px;
     grid-column-start: 1;
     grid-column-end: 2;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -56,4 +61,57 @@
     grid-column-start: 4;
     grid-column-end: 5;
     text-align: right;
+}
+
+footer {
+    width: 100%;
+    height: 45px;
+    background: #666666;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-width: 5px;
+    position: relative;
+    bottom: 0;
+}
+
+#AboutMe {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 35px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.grid-container-AboutMe {
+    background: #ffffff;
+    width: 960px;
+    height: 500px;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddddd;
+    color: #777777;
+}
+
+#MyPicture {
+    width: 200px;
+    border-style: solid;
+    border-color: #dddddd;
+    border-width: 2px;
+    margin-left: 20px;
+    float: left;
+    margin-right: 25px;
+}
+
+#MyBio {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+p{
+    padding-right: 35px;
 }
