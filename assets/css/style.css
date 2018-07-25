@@ -29,8 +29,8 @@
 }
 
 body {
-   /* background-image: url("/assets/images/lashes-dark.png") */
-    background: gray;
+   background-image: url("../images/background.jpg")
+    /* background: gray; */
     }
 
 #HopeGratrix {
@@ -120,4 +120,57 @@ footer {
 p{
     margin-right: 35px;
     margin-left: 35px;
+}
+
+.grid-container-contact {
+    background: #ffffff;
+    width: 960px;
+    height: 500px;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddddd;
+    margin-bottom: 100px;   
+}
+
+#contact {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    margin-left: 35px;
+    padding-bottom: 30px;
+    padding-top: 15px;
+    border-bottom-style: solid;
+    border-color: #dddddddd;
+    border-width: 4px;
+    margin-right: 35px;
+}
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 15px;
+    margin-left: 35px;
+    display: inline-block;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+input {
+    width: 890px;
+    color: #dddddd;
+    margin-left: 35px;
+}
+
+button {
+    margin-left: 35px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    margin-top: 10px;
+}
+
+#message {
+    padding: 80px;
 }
