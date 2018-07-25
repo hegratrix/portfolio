@@ -77,7 +77,7 @@ footer {
 .grid-container-AboutMe {
     background: #ffffff;
     width: 960px;
-    height: 500px;
+    height: 450px;
     margin: 20px;
     margin-right: auto;
     margin-left: auto;
@@ -93,8 +93,8 @@ footer {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 25px;
     margin-left: 35px;
-    padding-bottom: 30px;
-    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-top: 10px;
     border-bottom-style: solid;
     border-color: #dddddddd;
     border-width: 4px;
@@ -112,7 +112,7 @@ footer {
 }
 
 #MyBio {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Handlee', cursive;
     font-size: 16px;
     line-height: 1.6;
 }
@@ -149,7 +149,7 @@ p{
 }
 
 label {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Handlee', cursive;
     color: #777777;
     font-size: 15px;
     margin-left: 35px;
@@ -173,4 +173,36 @@ button {
 
 #message {
     padding: 80px;
+}
+
+.grid-container-FollowMe {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #ffffff;
+    width: 960px;
+    height: 50px;
+    margin: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dddddd;
+    color: #777777;
+}
+
+.follow {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.followlink {
+    font-size: 15px;
+}
+
+#FollowMe {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
