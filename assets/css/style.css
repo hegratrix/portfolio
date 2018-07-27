@@ -44,30 +44,21 @@ body {
 #About {
     grid-column-start: 2;
     grid-column-end: 3;
-    text-align: right;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    color: #e6e6e6;
-    padding-top: 35px;
-    text-decoration: none;
 }
 
 #Portfolio {
     grid-column-start: 3;
     grid-column-end: 4;
-    text-align: right;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-    color: #e6e6e6;
-    padding-top: 35px;
-    text-decoration: none;
 }
 
 #Contact {
     grid-column-start: 4;
     grid-column-end: 5;
-    text-align: right;
+}
+
+.hlink {
     font-family: 'Poppins', sans-serif;
+    text-align: right;
     font-size: 20px;
     color: #e6e6e6;
     padding-top: 35px;
