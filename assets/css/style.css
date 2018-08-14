@@ -220,6 +220,11 @@ a.hlink:hover {
     color: #96042d;
 }
 
+a.title:hover {
+    color: white;
+    font-size: 20px;
+}
+
 .container-portfolio {
     display: grid;
     background: #e6e6e6;
