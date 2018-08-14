@@ -283,11 +283,5 @@ a:hover {
 }
 
 textarea {
-    width: 890px;
-    color: #323232;
-    margin-left: 35px;
-    border-style: solid;
-    border-color: #808080;
-    border-width: 1px;
     font-family: 'Poppins', sans-serif;
 }
