@@ -291,3 +291,7 @@ a.title:hover {
 textarea {
     font-family: 'Poppins', sans-serif;
 }
+
+.hide {
+    visibility: hidden;
+}
