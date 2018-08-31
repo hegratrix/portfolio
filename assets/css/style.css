@@ -290,6 +290,8 @@ a.title:hover {
 
 textarea {
     font-family: 'Poppins', sans-serif;
+    margin-left: 35px;
+    width: 890px;
 }
 
 .hide {
